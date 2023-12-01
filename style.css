@@ -284,7 +284,11 @@ li {
 .blog {
     padding: 40px 0 40px 0;
     background-color: #F5F5F5;
+}
 
+.blogbox {
+    width: 800px;
+    margin: 0 auto;
 }
 
 .blog__blog {
@@ -297,14 +301,14 @@ li {
 .blog__ttl {
     font-size: 24px;
     color: #686868;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .blog__wrapper {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .blog__card {
